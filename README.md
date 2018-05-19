@@ -21,3 +21,5 @@ IMPORTANT NOTE: when using this programme, all phrases containing the following 
 -not in
 -or
 -any other word that is used in the python script that does not have a meaning in the sense of the english language
+
+For non-python users, you may install the python shell as a Google chrome extension or install the IDLE itself. Insert the code as a new script and run it. The IDLE is where you should give your inputs to generate the bibliography. You will have to run the script everytime you generate a new citation.
