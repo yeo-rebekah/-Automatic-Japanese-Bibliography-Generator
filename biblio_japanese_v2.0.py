@@ -2,37 +2,42 @@
 def bookCitation(authorInput,yearInput,titleInput, publisherInput):
     print(str(authorInput)+'('+str(yearInput)+')'+'『'+str(titleInput)+'』'+str(publisherInput))
     print('')
-    print(str(authorInput)+' ('+str(yearInput)+')')
+    print(str(authorInput)+'('+str(yearInput)+')')
     
 #function for a citation from a portion of a book
 def bookPortionCitation(authorPortionInput,yearInput,titlePortionInput,authorInput,titleInput, publisherInput,pagesInput):
+    print('')    
     print(str(authorPortionInput)+'('+str(yearInput)+')'+'「'+str(titlePortionInput)+'」'+str(authorInput)+'『'+str(titleInput)+'』'+str(publisherInput)+', '+str(pagesInput))
     print('')
-    print(str(authorInput)+' ('+str(yearInput)+')')
+    print(str(authorInput)+'('+str(yearInput)+')')
     
 #function for citation from a translated book
 def translatedCitation(authorForeignInput,yearPublishedInput,titleForeignInput,sourceForeignInput, translatorInput, titleInput, yearInput, publisherInput):
+    print('')    
     print(str(authorForeignInput)+' ('+str(yearPublishedInput)+') '+str(titleForeignInput)+'. '+str(sourceForeignInput)+'. '+str(translatorInput)+'訳'+'『'+str(titleInput)+'』'+'('+str(yearInput)+')'+str(publisherInput))
     print('')
-    print(str(authorInput)+' ('+str(yearInput)+')')
+    print(str(authorInput)+'('+str(yearInput)+')')
     
 #function for journal citations
 def journalCitation(authorInput,yearInput,titleInput, journalInput, volumeInput,pagesInput):
+    print('')    
     print(str(authorInput)+'('+str(yearInput)+')'+'「'+str(titleInput)+'」'+'『'+str(journalInput)+'』'+str(volumeInput)+', '+str(pagesInput))
     print('')
-    print(str(authorInput)+' ('+str(yearInput)+')')
+    print(str(authorInput)+'('+str(yearInput)+')')
     
 #function for newspaper citations (print)
 def newspaperCitation(authorInput,newspaperInput,yearInput, monthInput, dayInput, kanInput, hanInput, menInput):
+    print('')    
     print(str(authorInput)+'「'+str(newspaperInput)+'」'+str(yearInput)+'年'+str(monthInput)+'月'+str(dayInput)+'日'+str(kanInput)+', '+str(hanInput)+'判'+str(menInput)+'面')
     print('')
-    print(str(authorInput)+' ('+str(yearInput)+')')
+    print(str(authorInput)+'('+str(yearInput)+')')
     
 #function for internet articles citations
 def websiteCitation(authorInput,titleInput, yearInput, monthInput,urlInput, accessedInput):
+    print('')
     print(str(authorInput)+'「'+str(titleInput)+'('+str(yearInput)+'年'+str(monthInput)+'月'+')'+'」'+str(urlInput)+'　(参照'+str(accessedInput)+')')
     print('')
-    print(str(authorInput)+' ('+str(yearInput)+')')
+    print(str(authorInput)+'('+str(yearInput)+')')
 
 print('参考文献')
 print('1.書籍（本）Book')
