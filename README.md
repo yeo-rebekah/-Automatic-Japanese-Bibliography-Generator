@@ -1,4 +1,9 @@
 # Automatic Japanese Bibliography Generator
+v2.0 Updates
+-In-text citation output added
+-Error corrected in website citation
+
+
 This python script generates japanese bibliography according to the standard provided by:
 http://web.ydu.edu.tw/~uchiyama/ron/ron_04.html
 
